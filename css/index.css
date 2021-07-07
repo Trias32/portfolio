@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'Permanent Marker', cursive;
+}
+nav > a{
+    font-size: 2em;
+    color: rgb(26, 26, 26);
+    font-weight: 800;
+    
+}
+a > i{
+    color:rgb(255, 255, 255);
+}
+
+.logo{
+    margin: 10px;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(122, 197, 120);
+    padding: 1px;
+}
+.nav_el{
+    padding: 30px 25px;
+    border-right: solid 2px rgb(255, 255, 255);
+}
+.nav_el:last-child{
+    border-right: none;
+}
+
+.nav_el:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.nav_el:hover > a > i{
+    color:rgb(122, 197, 120);
+}
+
+.vk_style{
+    color:rgb(46, 169, 246);
+    font-size: 2em;
+    margin-right:10px;
+}
+
+.instagram_style{
+    color:rgb(214, 59, 188);
+    font-size: 2em;
+    margin-right:10px;
+}
+
+
+.contacts{
+    margin-top: auto;
+    margin-bottom: auto;
+}
